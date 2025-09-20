@@ -1,0 +1,52 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "GrJ9U6AVu3apccLTAYtnm",
+      "type": "text",
+      "x": 196.4041544217833,
+      "y": -1308.5216763408705,
+      "width": 1042.7757568359375,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b7L",
+      "roundness": null,
+      "seed": 1078077046,
+      "version": 331,
+      "versionNonce": 691147818,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1758021113769,
+      "link": null,
+      "locked": false,
+      "text": "GET/main - выводит главную страницу \nGET/result - выводит страничку с результатами \nPOST/form_№  - выводит старицы для записи в форму под\nопределённым номером",
+      "fontSize": 36,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "GET/main - выводит главную страницу \nGET/result - выводит страничку с результатами \nPOST/form_№  - выводит старицы для записи в форму под\nопределённым номером",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff",
+    "lockedMultiSelections": {}
+  },
+  "files": {}
+}
