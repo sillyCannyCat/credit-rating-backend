@@ -21,7 +21,9 @@ class RandomForestPretrained():
 
     def __encode__(self, X: np.array, cat_values: list):
         X = X.reshape(-1, 1)
+        # print(X)
         for ind, enc in zip(cat_values, self.encoders):
+            print(X[ind].reshape(-1, 1).dtype)
             X[ind] = enc.transform(X[ind].reshape(-1, 1))
         return X.reshape(1, -1)[0]
 
