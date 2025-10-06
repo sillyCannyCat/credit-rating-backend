@@ -16,4 +16,5 @@ def get_model_predictions(data:dict):
             cat_indexes.append(ind)
         to_model.append(data[key])
     to_model = np.array(to_model)
-    return model.predict(to_model, cat_indexes)
+    result = True if model.predict(to_model, cat_indexes)[0] == 0 else False
+    return {"result":result}

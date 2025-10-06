@@ -35,4 +35,4 @@ class RandomForestPretrained():
         return self.model.predict(X.reshape(1, -1))
 
 
-model = RandomForestPretrained(r'api/random_forest_sklearn.joblib', r'api/encoders')
+model = RandomForestPretrained(r'api/random_forest_sklearn_new.joblib', r'api/encoders')
