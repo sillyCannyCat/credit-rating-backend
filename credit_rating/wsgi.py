@@ -1,5 +1,5 @@
 """
-WSGI config for credit_raing project.
+WSGI config for credit_rating project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'credit_raing.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'credit_rating.settings')
 
 application = get_wsgi_application()

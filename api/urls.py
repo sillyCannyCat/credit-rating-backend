@@ -1,5 +1,6 @@
 from django.urls import path
-from .views import ModelPools
+from .views import ModelPoolsView
+
 urlpatterns = [
-    path('analyse/', ModelPools.as_view(), name='analise')
+    path('analyse/', ModelPoolsView.as_view(), name='analyse')
 ]
