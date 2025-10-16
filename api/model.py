@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OrdinalEncoder
 
 
-class RandomForestPretrained():
+class RandomForestPretrained:
     def __init__(self, root_to_model: str, roots_to_encoders: str):
         self.model = joblib.load(root_to_model)  # need to test
         self.encoders_types = ['code_gender',

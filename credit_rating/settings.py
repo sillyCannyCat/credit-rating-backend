@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'credit_raing.urls'
+ROOT_URLCONF = 'credit_rating.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'credit_raing.wsgi.application'
+WSGI_APPLICATION = 'credit_rating.wsgi.application'
 
 
 # Database

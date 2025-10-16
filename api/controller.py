@@ -1,6 +1,8 @@
 import numpy as np
 from .model import model
-def get_model_predictions(data:dict):
+
+
+def get_model_predictions(data: dict):
     to_model = list()
     cat_indexes = list()
     cat_features = ['code_gender',
