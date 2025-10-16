@@ -32,7 +32,7 @@ class RandomForestPretrained():
             print("Wrong data type")
             return None
         X = self.__encode__(X, cat_values)
-        return self.model.predict(X.reshape(1, -1))
+        return self.model.predict_proba(X.reshape(1, -1))
 
 
 model = RandomForestPretrained(r'api/random_forest_sklearn_new.joblib', r'api/encoders')
